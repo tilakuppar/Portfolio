@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     height: 100%;
+     width: 100%;
+     top: 0px;
+     position: absolute;
+     background: url('/static/portbg3.jpg');
+     background-size: cover;
+     overflow: hidden;
+ }
+ .container{
+     display: flex;
+     justify-content: space-between;
+     background-color: rgba(0, 0, 0, 0.644);
+     height:10vh;
+ }
+ ul{
+     list-style: none;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding-top:4px ;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+     font-size: large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding-left: 40px;
+     transition: all 0.3s linear;
+ }
+ a:hover{
+     color: antiquewhite;
+     text-decoration: underline;
+     transition: all 0.3s linear;
+ }
+ 
+ .content{
+     display: flex;
+     justify-content:space-evenly;
+     position: relative;
+     top: 30vh;   
+ }
+ .info{
+     font-size: 30px;
+     font-family: 'Trochut', cursive;
+     font-weight: bolder;
+     line-height: 50px;
+ }
+ #picture{
+     width: 60px;
+     height: 60px;
+     padding: 4px;
+     margin-top: 3px;
+     border-radius: 100px;
+     transition: all 0.2 linear;
+     margin-right: 40px;
+ }
+ #picture:hover{
+     transform: rotate(3deg);
+ }
+
+
+.contact{
+    position: relative;
+    left: 31%;
+    top: 50px;
+    font-size: x-large;
+}
+.contact form{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+legend{
+    font-size: xx-large;
+    color: tomato;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 10vh;
+}
+fieldset{
+    width: 50vh;
+    padding-left: 10px;
+    position: relative;
+    left: -50px;
+    color: transparent;
+    border: none;
+}
+label{
+    line-height:95px;
+    font-family: Verdana;    
+    font-size: large;
+    font-weight: bolder;
+}
+#name,#email,#msg{
+    border: none;
+    border-bottom: 1px solid rgb(247, 244, 244);
+    background-color: transparent;
+    font-size: medium;
+    outline: none;
+}
+#submit,#reset{
+    font-size:large ;
+    text-align: center;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.596);
+    color: white;
+    position: relative;
+    left: 3vh;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: navy;
+    transition: all 0.3s linear;
+}
+#submit:hover,#reset:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    color:rgba(0, 0, 255, 0.596); 
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.contact_info{
+    position: relative;
+    bottom:40vh ;
+    left:38vh ;
+    color: rgb(28, 31, 32);
+}
+.contact_info p{
+    font-size: large;
+}
+.contact_info i{
+    font-size: large;
+    margin-top: 0px;
+}
+.call_us,.mail,.location{
+    display: flex;
+    position: relative;
+    left: 10vh;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+.call_us,.mail,.location, p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+.call_us,.mail,.location, i{
+    font-size: medium;
+}
+.dm{
+    position: relative;
+    left: 15vh;
+    margin-top: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dm i{
+    font-size: larger;
+    margin-left: 15px;
+    color: rgb(50, 13, 85);
+}
+
+#skill_id:target{
+    display: flex; 
+}
+#contact_id:target{
+    display:  block;
+}
+input{
+    color:white;
+    font-family: sans-serif;
+    position: relative;
+    left: 0px;
+}
+label{
+    color: rgb(228, 225, 225);
+}
+#msg::placeholder{
+    position: relative;
+    padding-left: 10px;
+    color: white;
+}
+#name::placeholder{
+    position: relative;
+    top: -2px;
+    padding-left: 15px;
+    color: white;
+}
+
+#email::placeholder{
+    position: relative;
+    top: -2px;
+    padding-left: 55px;
+    color: white;
+}
+#msg::placeholder{
+    position: relative;
+    top: -2px;
+    padding-left: 20px;
+    color: white;
+}

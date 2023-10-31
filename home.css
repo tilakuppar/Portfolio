@@ -1,0 +1,67 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('/static/portbg3.jpg');
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.644);
+    height:10vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top:4px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+    transition: all 0.3s linear;
+}
+a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: 30vh;  
+    color: rgb(190, 179, 165); 
+}
+.info{
+    font-size: 30px;
+    font-family: 'Trochut', cursive;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: xx-large;
+    color: white;
+}
+#picture{
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    margin-top: 3px;
+    border-radius: 100px;
+    transition: all 0.2 linear;
+    margin-right: 40px;
+}
+#picture:hover{
+    transform: rotate(3deg);
+}
